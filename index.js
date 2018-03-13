@@ -3,7 +3,7 @@
 // See https://github.com/jshint/jshint/issues/1747 for context
 /* global -Promise */
 var Promise = require('es6-promise').Promise;
-var FirefoxClient = require('firefox-client');
+var FirefoxClient = require('@cliqz-oss/firefox-client');
 
 module.exports = connect;
 

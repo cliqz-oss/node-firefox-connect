@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "es6-promise": "^2.0.1",
-    "firefox-client": "^0.3.0"
+    "@cliqz-oss/firefox-client": "0.3.1"
   },
   "devDependencies": {
     "gulp": "^3.8.10",
