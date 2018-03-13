@@ -1,6 +1,6 @@
 {
-  "name": "node-firefox-connect",
-  "version": "1.2.0",
+  "name": "@cliqz-oss/node-firefox-connect",
+  "version": "1.2.1",
   "description": "Connect to a Firefox simulator",
   "main": "index.js",
   "dependencies": {
