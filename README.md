@@ -1,17 +1,17 @@
-# node-firefox-connect [![Build Status](https://secure.travis-ci.org/mozilla/node-firefox-connect.png?branch=master)](http://travis-ci.org/mozilla/node-firefox-connect)
+# node-firefox-connect
 
 > Connects to a Firefox debuggable runtime.
 
-[![Install with NPM](https://nodei.co/npm/node-firefox-connect.png?downloads=true&stars=true)](https://nodei.co/npm/node-firefox-connect/)
+[![Install with NPM](https://nodei.co/npm/@cliqz-oss/node-firefox-connect.png?downloads=true&stars=true)](https://nodei.co/npm/@cliqz-oss/node-firefox-connect/)
 
-This is part of the [node-firefox](https://github.com/mozilla/node-firefox) project.
+This is part of the [node-firefox](https://github.com/cliqz-oss/node-firefox) project.
 
 ## Installation
 
 ### From git
 
 ```sh
-git clone https://github.com/mozilla/node-firefox-connect.git
+git clone https://github.com/cliqz-oss/node-firefox-connect.git
 cd node-firefox-connect
 npm install
 ```
@@ -27,7 +27,7 @@ npm install
 ### npm
 
 ```bash
-npm install node-firefox-connect
+npm install @cliqz-oss/node-firefox-connect
 ```
 
 ## Usage
@@ -44,7 +44,7 @@ connect(portNumber).then(function(client) {
 ## Example
 
 ```javascript
-var connect = require('node-firefox-connect');
+var connect = require('@cliqz-oss/node-firefox-connect');
 
 connect(1234)
   .then(function(client) {
