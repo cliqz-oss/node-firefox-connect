@@ -1,7 +1,7 @@
 'use strict';
 
 var mockery = require('mockery');
-mockery.registerMock('firefox-client', MockFirefoxClient);
+mockery.registerMock('@cliqz-oss/firefox-client', MockFirefoxClient);
 mockery.enable({
   warnOnReplace: false,
   warnOnUnregistered: false
