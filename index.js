@@ -1,16 +1,13 @@
 'use strict';
 
-// See https://github.com/jshint/jshint/issues/1747 for context
-/* global -Promise */
-var Promise = require('es6-promise').Promise;
-var FirefoxClient = require('@cliqz-oss/firefox-client');
+const FirefoxClient = require('@cliqz-oss/firefox-client');
 
 module.exports = connect;
 
 function connect(port) {
   return new Promise(function(resolve, reject) {
 
-    var client = new FirefoxClient();
+    const client = new FirefoxClient();
     client.connect(port, function(err) {
       if (err) {
         reject(err);
